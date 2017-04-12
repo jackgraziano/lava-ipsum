@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans');
 .banner{
   height: 25vh;
   background: rgba(100,100,100,0.2);
@@ -8,7 +9,14 @@
   flex-direction: column;
 }
 
+.header h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
 #text{
   border: none;
   font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }

@@ -15,7 +15,7 @@ $(document).ready(function(){
         randomArray.push(items[Math.floor(Math.random()*items.length)]);
       }
 
-      $('#text').html('Sergius Morus lavaris jatus Lulius presus. ' + randomArray.join(''));
+      $('#text').html('Sergius Morus lavam jatus Lulam presus. ' + randomArray.join(''));
 
     });
 
