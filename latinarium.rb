@@ -4,6 +4,7 @@ def latinize_string(string)
   string.split(" ").map{|word| latinize_word(word)}.join(" ")
 end
 
+
 def latinize_word(word)
   if word.length >= 4
     ending = word[-2] + word[-1]
@@ -42,6 +43,7 @@ end
 
 file = File.read('paragraphs.json')
 data = JSON.parse(file)
+
 
 transformed = {}
 data.each do |k,v|
