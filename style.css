@@ -1,0 +1,14 @@
+.banner{
+  height: 25vh;
+  background: rgba(100,100,100,0.2);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+#text{
+  border: none;
+  font-size: 20px;
+}
